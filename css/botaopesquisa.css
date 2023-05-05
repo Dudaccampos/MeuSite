@@ -1,0 +1,21 @@
+#divBusca{
+    background-color:#E0EEEE;
+    border:solid 2px rgb(134, 57, 2);
+    border-radius:10px;
+    width:415px;
+    height:32px;
+    margin-top: 21px;
+    
+  }
+
+  #btnBusca{
+    border:none;
+    float:left;
+    height:35px;
+    border-radius:0 7px 7px 0;
+    width:120px;
+    font-weight:bold;
+    background:rgb(134, 57, 2);
+    margin-left: 297px;
+    margin-top: -36px;
+  }

@@ -1,0 +1,127 @@
+body{
+    color: #ffffff;
+    background-color:black;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+ ul{
+    display: flex;
+    justify-content: space-between;
+    list-style-type: none;
+    align-items: center;
+    padding: 5px;
+    margin-right: 35px; 
+    margin-left: 35px; 
+    margin-top: 120px;
+ }
+ .sair{
+   font-size: 5rem;
+   text-align: right;
+   margin-top: -200px;
+ }
+ button {
+   background-color: rgb(134, 57, 2);
+   color: #000000;
+   font-size: 1.2rem;
+   padding: 10px 20px;
+   border-radius: 1px;
+   border: none;
+   cursor: pointer;
+   position: center;
+   margin-right: 10px;
+ }
+
+a{
+    color: white;
+    text-decoration:nome
+}
+ .cabecalho img{
+    width: 800px;
+    height: 180px;
+    margin-left: 220px;
+ }
+
+
+ footer {
+    background-color: #f1ecec;
+    color: black;
+    text-align: center;
+    padding: 20px;
+    margin-top: 700px;
+    }
+
+  
+    .content {
+      height: 620px;
+      width: 1000px;
+      border-radius: 20px;
+      overflow: hidden;
+      position: absolute;
+      margin-top: 35px;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
+  }
+  
+  .content .slide img {
+      height: 100%;
+      width: 100%;
+  }
+  
+  .navigation {
+      position: absolute;
+      bottom: 160px;
+      left: 480px;
+      display: flex;
+  }
+  
+  .bar {
+  
+      width: 15px;
+      height: 15px;
+      border: 2px solid rgb(255, 255, 255);
+      margin: 6px;
+      border-radius: 40px;
+      cursor: pointer;
+      transform: .5s ease;
+      
+  
+  }
+  
+  .bar:hover {
+      background-color: rgb(255, 255, 255);
+  }
+  
+  input {
+    display: none;
+  }
+  
+  .slides {
+      display: flex;
+      width: 505%;
+      height: 100%;
+  }
+  
+  .slide {
+      width: 20%;
+      transition: .6s;
+  }
+  
+  #slide1:checked ~ .s1 {
+      margin-left: 0;
+  } 
+  
+  #slide2:checked ~ .s1 {
+      margin-left: -20%;
+  } 
+  
+  #slide3:checked ~ .s1 {
+      margin-left: -40%;
+  } 
+  
+  #slide4:checked ~ .s1 {
+      margin-left: -60%;
+  } 
+  
+  #slide5:checked ~ .s1 {
+      margin-left: -80%;
+  }
